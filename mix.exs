@@ -6,7 +6,7 @@ defmodule Nicene.MixProject do
   def project do
     [
       app: :nicene,
-      version: "0.6.1",
+      version: "0.6.2",
       elixir: "~> 1.13",
       start_permanent: false,
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -49,7 +49,7 @@ defmodule Nicene.MixProject do
     [
       {:assertions, "~> 0.19.0", only: [:test]},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:credo, "~> 1.6.6"}
+      {:credo, "~> 1.6.4"}
     ]
   end
 end
